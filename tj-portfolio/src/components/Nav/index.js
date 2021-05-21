@@ -1,10 +1,12 @@
 import React from "react";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./style.css";
 
 const TopBar = () => {
   return (
     <Navbar bg="" expand="lg">
-      <Navbar.Brand href="#">TJ Elder</Navbar.Brand>
+      <Navbar.Brand href="/">TJ Elder</Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarScroll" />
       <Navbar.Collapse id="navbarScroll">
         <Nav
@@ -12,8 +14,8 @@ const TopBar = () => {
           style={{ maxHeight: "100px" }}
           navbarScroll
         >
-          <Nav.Link href="#action1">Home</Nav.Link>
-          <Nav.Link href="#action2">About</Nav.Link>
+          <Nav.Link href="/about">About</Nav.Link>
+          <Nav.Link href="/contact">Contact</Nav.Link>
           <NavDropdown title="My Work" id="navbarScrollingDropdown">
             <NavDropdown.Item href="#action3">SEO Dashboard</NavDropdown.Item>
             <NavDropdown.Divider />
@@ -25,7 +27,6 @@ const TopBar = () => {
               BeerNuts Full Stack App
             </NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link href="#">Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
