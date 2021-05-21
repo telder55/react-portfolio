@@ -20,10 +20,7 @@ body,
 HTML {
   margin: 0 auto;
   height: 100%;
-  background-image: radial-gradient(circle, #8ea1b1, #3171a5, #8ea1b1);
-}
-
-#hero {
+  /* background-image: radial-gradient(circle, #8ea1b1, #3171a5, #8ea1b1); */
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(./assets/images/QuandaryPeakFall2020-mobile.jpeg);
   height: 100%;
@@ -40,6 +37,91 @@ h1 {
   font-size: xxx-large;
   color: white;
   padding: 0 5% 0 5%;
+}
+
+.hero-text {
+  text-align: center;
+}
+
+h2 {
+  /* margin-top: 5%; */
+  text-align: center;
+  font-size: xxx-large;
+  font-weight: 300;
+  color: white;
+  /* color: #3171a5; */
+}
+
+h3 {
+  color: #3171a5;
+}
+
+.nav-links {
+  display: flex;
+  margin-top: 30px;
+}
+
+.nav-links li {
+  color: white;
+  list-style: none;
+  flex: left;
+  margin: 0 2% 0 2%;
+  padding: 0.5% 0.5% 0.5% 0.5%;
+  transition: transform 0.2s;
+}
+
+#hero a {
+  text-decoration: none;
+  color: white;
+  margin: 0 20px 0 20px;
+}
+
+.nav-links li:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+.portfolio-section {
+  display: flex;
+  padding: 0 40px 0 40px;
+  /* flex-wrap: wrap; */
+}
+
+.portfolio-box {
+  text-align: center;
+  border-width: 2px;
+  margin: 2px;
+  border-color: #3171a5;
+  border-style: solid;
+  padding: 2%;
+  width: 100%;
+}
+
+.portfolio-images {
+  max-width: 100%;
+  display: block;
+}
+
+#work {
+  margin-bottom: 2em;
+  /* background-color: white; */
+}
+
+#bio {
+  padding: 4em;
+  color: white;
+}
+
+.flex-parent {
+  display: flex;
+}
+
+#bio p {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: white;
+  line-height: 40px;
+  max-width: 900px;
 }
 
 @media (min-width: 768px) {
@@ -62,10 +144,18 @@ h1 {
     padding-left: 50px;
   }
 
-  #hero {
+  body,
+  HTML {
+    margin: 0 auto;
+    height: 100%;
+    /* background-image: radial-gradient(circle, #8ea1b1, #3171a5, #8ea1b1); */
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
       url(./assets/images/QuandaryPeakFall2020.jpeg);
-    background-attachment: fixed;
-    min-height: 800px;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+    overflow: hidden;
   }
 }
