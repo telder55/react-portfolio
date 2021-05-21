@@ -1,16 +1,9 @@
 import React from "react";
-import {
-  Nav,
-  Navbar,
-  Form,
-  NavDropdown,
-  FormControl,
-  Button,
-} from "react-bootstrap";
+import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 
 const TopBar = () => {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="" expand="lg">
       <Navbar.Brand href="#">TJ Elder</Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarScroll" />
       <Navbar.Collapse id="navbarScroll">
