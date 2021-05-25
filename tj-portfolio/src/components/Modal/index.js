@@ -1,16 +1,17 @@
 import React, { useEffect, useState } from "react";
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
+import Button from "react-bootstrap/Button";
 
-const WorkCard = ({ details }) => {
+const WorkModal = ({ details, showModal }) => {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-
   return (
-    <div>
+    <>
+      <Button variant="primary" onClick={handleShow}>
+        Launch demo modal
+      </Button>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>{details.name}</Modal.Title>
@@ -26,20 +27,8 @@ const WorkCard = ({ details }) => {
           </Button>
         </Modal.Footer>
       </Modal>
-      <Card>
-        <Card.Img variant="top" onClick={handleShow} src={details.image} />
-        <Card.Body>
-          <Card.Title>{details.name}</Card.Title>
-          <Button href={details.github} variant="primary">
-            View Github
-          </Button>
-          <Button href={details.app} variant="primary">
-            View App
-          </Button>
-        </Card.Body>
-      </Card>
-    </div>
+    </>
   );
 };
 
-export default WorkCard;
+export default WorkModal;

@@ -16,16 +16,28 @@ const TopBar = () => {
         >
           <Nav.Link href="/about">About</Nav.Link>
           <Nav.Link href="/contact">Contact</Nav.Link>
-          <NavDropdown title="My Work" id="navbarScrollingDropdown">
-            <NavDropdown.Item href="#action3">SEO Dashboard</NavDropdown.Item>
+          <NavDropdown
+            href="/work"
+            title="My Work"
+            id="navbarScrollingDropdown"
+          >
+            <NavDropdown.Item href="/work#dashboard">
+              SEO Dashboard
+            </NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="#action4">
+            <NavDropdown.Item href="/work">
               Employee Directory React App
             </NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="#action5">
+            <NavDropdown.Item href="/work">
               BeerNuts Full Stack App
             </NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item href="/work">Fitness Tracker</NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item href="/work">Readme Generator</NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item href="/work">Weather Dashboard</NavDropdown.Item>
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>

@@ -7,3 +7,7 @@
 .btn {
   margin: 2px;
 }
+
+.card-img-top {
+  cursor: zoom-in;
+}

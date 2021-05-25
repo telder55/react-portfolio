@@ -4,6 +4,7 @@ import "./App.css";
 import Home from "./pages/home";
 import About from "./pages/about";
 import Contact from "./pages/contact";
+import Workpage from "./pages/work";
 import NoMatch from "./pages/NoMatch";
 import TopBar from "./components/Nav";
 
@@ -16,6 +17,7 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/work" component={Workpage} />
 
           <Route component={NoMatch} />
         </Switch>

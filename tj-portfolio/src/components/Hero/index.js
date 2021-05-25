@@ -7,7 +7,7 @@ const Hero = () => {
     <div id="hero">
       <div className="hero-text">
         <h1>TJ Elder - Web Developer</h1>
-        <Button id="work-button" variant="outline-dark">
+        <Button href="/work" id="work-button" variant="outline-dark">
           View My Work
         </Button>
       </div>

@@ -1,6 +1,5 @@
 import React from "react";
-import { Col, Row, Container } from "../components/Grid";
-import TopBar from "../components/Nav";
+import { Container } from "../components/Grid";
 
 function About() {
   return (
