@@ -21,29 +21,9 @@ const TopBar = () => {
           <NavLink className="nav-link" to="/contact">
             Contact
           </NavLink>
-          <NavDropdown
-            href="/work"
-            title="My Work"
-            id="navbarScrollingDropdown"
-          >
-            <NavDropdown.Item href="/work#dashboard">
-              SEO Dashboard
-            </NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="/work">
-              Employee Directory React App
-            </NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="/work">
-              BeerNuts Full Stack App
-            </NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="/work">Fitness Tracker</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="/work">Readme Generator</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="/work">Weather Dashboard</NavDropdown.Item>
-          </NavDropdown>
+          <NavLink className="nav-link" to="/work">
+            My Work
+          </NavLink>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
