@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9a05a827.chunk.css",
+    "main.js": "/static/js/main.67ecf81f.chunk.js",
+    "main.js.map": "/static/js/main.67ecf81f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d48c00a1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d48c00a1.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.8b44d7df.chunk.js": "/static/js/2.8b44d7df.chunk.js",
+    "static/js/2.8b44d7df.chunk.js.map": "/static/js/2.8b44d7df.chunk.js.map",
+    "static/js/3.2f723352.chunk.js": "/static/js/3.2f723352.chunk.js",
+    "static/js/3.2f723352.chunk.js.map": "/static/js/3.2f723352.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.9a05a827.chunk.css.map": "/static/css/main.9a05a827.chunk.css.map",
+    "static/js/2.8b44d7df.chunk.js.LICENSE.txt": "/static/js/2.8b44d7df.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/QuandaryPeakFall2020.ef0e8347.jpeg",
+    "static/media/TJ_Elder_Headshot.94108be1.jpeg": "/static/media/TJ_Elder_Headshot.94108be1.jpeg",
+    "static/media/beernuts.60a59e95.png": "/static/media/beernuts.60a59e95.png",
+    "static/media/book-finder.aa739c83.png": "/static/media/book-finder.aa739c83.png",
+    "static/media/employee-directory.a4f9336d.png": "/static/media/employee-directory.a4f9336d.png",
+    "static/media/fitness-tracker.9d78def5.png": "/static/media/fitness-tracker.9d78def5.png",
+    "static/media/weather-dashboard-2.ce29030e.png": "/static/media/weather-dashboard-2.ce29030e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d48c00a1.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.8b44d7df.chunk.js",
+    "static/css/main.9a05a827.chunk.css",
+    "static/js/main.67ecf81f.chunk.js"
+  ]
+}
