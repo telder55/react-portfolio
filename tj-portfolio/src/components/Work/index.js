@@ -74,7 +74,7 @@ const Work = () => {
           <WorkCard className="work-card" details={cardDetails[2]} />
         </Col>
       </Row>
-      <Row>
+      <Row id="row2">
         <Col size="sm-4">
           <WorkCard className="work-card" details={cardDetails[3]} />
         </Col>

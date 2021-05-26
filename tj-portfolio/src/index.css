@@ -20,14 +20,14 @@ body,
 HTML {
   margin: 0 auto;
   height: 100%;
-  /* background-image: radial-gradient(circle, #8ea1b1, #3171a5, #8ea1b1); */
+  background-image: radial-gradient(circle, #8ea1b1, #3171a5, #8ea1b1);
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(./assets/images/QuandaryPeakFall2020-mobile.jpeg);
   height: 100%;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #464646;
+  /* background-color: #464646; */
   /* overflow: hidden; */
 }
 
@@ -187,15 +187,8 @@ h3 {
   body,
   HTML {
     margin: 0 auto;
-    height: 100%;
-    /* background-image: radial-gradient(circle, #8ea1b1, #3171a5, #8ea1b1); */
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
       url(./assets/images/QuandaryPeakFall2020.jpeg);
-    height: 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #464646;
-    /* overflow: hidden; */
+    background-attachment: fixed;
   }
 }

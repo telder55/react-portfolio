@@ -18,10 +18,20 @@ const WorkCard = ({ details }) => {
         <img src={details.image} />
         <Modal.Body>{details.description}</Modal.Body>
         <Modal.Footer>
-          <Button variant="primary" onClick={handleClose}>
+          <Button
+            href={details.github}
+            target="blank"
+            variant="primary"
+            onClick={handleClose}
+          >
             View Github
           </Button>
-          <Button variant="primary" onClick={handleClose}>
+          <Button
+            href={details.app}
+            target="blank"
+            variant="primary"
+            onClick={handleClose}
+          >
             View App
           </Button>
         </Modal.Footer>
@@ -30,11 +40,8 @@ const WorkCard = ({ details }) => {
         <Card.Img variant="top" onClick={handleShow} src={details.image} />
         <Card.Body>
           <Card.Title>{details.name}</Card.Title>
-          <Button href={details.github} variant="primary">
-            View Github
-          </Button>
-          <Button href={details.app} variant="primary">
-            View App
+          <Button onClick={handleShow} className="work-btn" variant="primary">
+            More Info on {details.name}
           </Button>
         </Card.Body>
       </Card>

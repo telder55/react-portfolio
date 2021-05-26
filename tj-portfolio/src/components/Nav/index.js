@@ -2,6 +2,7 @@ import React from "react";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
+import { NavLink } from "react-router-dom";
 
 const TopBar = () => {
   return (
@@ -14,8 +15,12 @@ const TopBar = () => {
           style={{ maxHeight: "100px" }}
           navbarScroll
         >
-          <Nav.Link href="/about">About</Nav.Link>
-          <Nav.Link href="/contact">Contact</Nav.Link>
+          <NavLink className="nav-link" to="/about">
+            About
+          </NavLink>
+          <NavLink className="nav-link" to="/contact">
+            Contact
+          </NavLink>
           <NavDropdown
             href="/work"
             title="My Work"

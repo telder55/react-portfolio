@@ -7,21 +7,20 @@ import Contact from "./pages/contact";
 import Workpage from "./pages/work";
 import NoMatch from "./pages/NoMatch";
 import TopBar from "./components/Nav";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <Router>
-      <div>
-        <TopBar />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/work" component={Workpage} />
-
-          <Route component={NoMatch} />
-        </Switch>
-      </div>
+      <TopBar />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/work" component={Workpage} />
+        <Route component={NoMatch} />
+      </Switch>
+      <Footer />
     </Router>
   );
 }
