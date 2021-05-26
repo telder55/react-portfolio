@@ -1,0 +1,29 @@
+.navbar-brand,
+.nav-link {
+  color: white !important;
+}
+
+.navbar-brand {
+  padding: 1em;
+}
+
+.nav-link {
+  margin-left: 10px;
+}
+
+.navbar-brand:hover {
+  /* cursor: pointer; */
+  transform: scale(1.2);
+  color: #133d5f !important;
+}
+
+.navbar {
+  backdrop-filter: grayscale(50%);
+  z-index: 1;
+}
+
+.nav-link:hover {
+  /* cursor: pointer; */
+  transform: scale(1.2);
+  color: #133d5f !important;
+}
