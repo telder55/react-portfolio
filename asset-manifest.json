@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.8388947b.chunk.css",
+    "main.css": "/react-portfolio/static/css/main.374f22c8.chunk.css",
     "main.js": "/react-portfolio/static/js/main.8d150259.chunk.js",
     "main.js.map": "/react-portfolio/static/js/main.8d150259.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.58f739ec.js",
@@ -12,7 +12,7 @@
     "static/js/3.2f723352.chunk.js.map": "/react-portfolio/static/js/3.2f723352.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/react-portfolio/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.8388947b.chunk.css.map": "/react-portfolio/static/css/main.8388947b.chunk.css.map",
+    "static/css/main.374f22c8.chunk.css.map": "/react-portfolio/static/css/main.374f22c8.chunk.css.map",
     "static/js/2.763faf75.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.763faf75.chunk.js.LICENSE.txt",
     "static/media/index.css": "/react-portfolio/static/media/QuandaryPeakFall2020.ef0e8347.jpeg",
     "static/media/TJ_Elder_Headshot.94108be1.jpeg": "/react-portfolio/static/media/TJ_Elder_Headshot.94108be1.jpeg",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.58f739ec.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.763faf75.chunk.js",
-    "static/css/main.8388947b.chunk.css",
+    "static/css/main.374f22c8.chunk.css",
     "static/js/main.8d150259.chunk.js"
   ]
 }
