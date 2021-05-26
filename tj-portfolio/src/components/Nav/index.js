@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 const TopBar = () => {
   return (
     <Navbar bg="" expand="lg">
-      <Navbar.Brand href="/">TJ Elder</Navbar.Brand>
+      <Navbar.Brand href="/react-portfolio">TJ Elder</Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarScroll" />
       <Navbar.Collapse id="navbarScroll">
         <Nav
